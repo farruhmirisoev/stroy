@@ -1,0 +1,27 @@
+name = Datasite 
+description = DataSite
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] 		= css/bootstrap.min.css
+stylesheets[all][] 		= css/font-awesome.min.css
+stylesheets[all][] 		= css/css/slider.css
+stylesheets[all][] 		= css/main.css
+
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jquery.flexisel.js
+scripts[] = js/script.js
+
+regions[top_header]     = Top Header
+regions[header]         = Header
+regions[baner]          = Baner
+regions[navigation]     = Navigation
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[promotion]      = Promotion
+regions[content]        = Content
+regions[underground]    = Underground
+regions[sidebar_first]  = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer]         = Footer
+regions[footer_bottom]  = Footer-bottom
